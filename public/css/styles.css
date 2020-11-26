@@ -1,6 +1,6 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  background-image: -webkit-linear-gradient(65deg, #16697a 50%, #ffa62b 50%);
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
@@ -8,19 +8,22 @@ html {
 h1 {
   color: #fff;
   padding: 10px;
+  font-size: 50px;
 }
 
 .box {
   max-width: 400px;
   margin: 50px auto;
   background: white;
+  /* background-color: #db6400; */
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: #16697a;
   text-align: center;
+  margin: auto;
 }
 
 .item {
@@ -36,7 +39,8 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #16697a;
+  
 }
 
 input[type="checkbox"] {
@@ -61,7 +65,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: #16697a;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
@@ -90,7 +94,8 @@ input[type="text"]:focus {
 }
 
 footer {
-  color: white;
-  color: rgba(0, 0, 0, 0.5);
+  color: #16697a;
+  font-size: 18px;
+  /* color: rgba(0, 0, 0, 0.5); */
   text-align: center;
 }
